@@ -11,9 +11,9 @@ import matplotlib.pyplot as plt
 # Step 1: Import Data and Data Preparation
 
 # Import CSV files
-loan_listing_df = pd.read_csv('https://raw.githubusercontent.com/nyangoto/Loan_Analysis/blob/main/Loan_Listing_Table.csv')
-accruals_df = pd.read_csv('https://raw.githubusercontent.com/nyangoto/Loan_Analysis/blob/main/Accruals_Table.csv')
-repayment_schedule_df = pd.read_csv('https://raw.githubusercontent.com/nyangoto/Loan_Analysis/blob/main/Loan_Repayment_schedule_table.csv')
+loan_listing_df = pd.read_csv('https://raw.githubusercontent.com/nyangoto/loan_recomp_analysis/main/Loan_Listing_Table.csv?token=GHSAT0AAAAAACGQF2QDXHTZVUH4RTBOU5GAZICWDKQ')
+accruals_df = pd.read_csv('https://raw.githubusercontent.com/nyangoto/loan_recomp_analysis/main/Accruals_Table.csv?token=GHSAT0AAAAAACGQF2QC7OH6XPWUSCGSH73SZICWFJQ')
+repayment_schedule_df = pd.read_csv('https://raw.githubusercontent.com/nyangoto/loan_recomp_analysis/main/Loan_Repayment_schedule_table.csv?token=GHSAT0AAAAAACGQF2QCXYIT2BDCHPZUKBFYZICWEEQ')
 
 # Data cleaning and type conversion if needed
 # For example, convert date columns to datetime format if not already done:
